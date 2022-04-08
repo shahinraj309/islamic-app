@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/l_green">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="حكم و وقت صلاة "
+            android:textColor="@color/yellow"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="كيف تؤديها بالطريقة الصحيحة "
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/tv2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/design"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:text="بدون إنترنت"
+                android:textColor="@color/yellow"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/banner"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/h_button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttom_customize"
+            android:text="كيفية أداء صلاة الإستخارة"
+            android:textColor="@color/yellow"
+            android:textSize="19sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/h_button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/buttom_customize"
+            android:text="أذكار الصباح"
+            android:textColor="@color/yellow"
+            android:textSize="19sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/h_button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/buttom_customize"
+            android:text="أذكار المساء"
+            android:textColor="@color/yellow"
+            android:textSize="19sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/h_button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/buttom_customize"
+            android:text="التذكير بأذكار الصباح و المساء"
+            android:textColor="@color/yellow"
+            android:textSize="19sp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

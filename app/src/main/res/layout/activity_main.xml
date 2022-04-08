@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/l_green"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_marginRight="10dp"
+        android:layout_width="85dp"
+        android:layout_height="85dp">
+
+    </ImageView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="تحميل التطبيق "
+            android:textColor="@color/yellow"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="...المرجو الإنتظار"
+            android:textColor="@color/yellow"
+            android:textSize="12sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
